@@ -24,8 +24,8 @@
     { GP28, GP21, GP6, GP7, GP8 }
 
 /* Handedness. */
-#define MASTER_RIGHT
-
+#define MASTER_LEFT
+#define USB_VBUS_PIN GP19
 // To use the handedness pin, resistors need to be installed on the adapter PCB.
 // If so, uncomment the following code, and undefine MASTER_RIGHT above.
 // #define SPLIT_HAND_PIN GP15
